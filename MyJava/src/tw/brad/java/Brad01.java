@@ -7,12 +7,10 @@ public class Brad01 {
 		
 		String id = JOptionPane.showInputDialog("輸入....");
 		System.out.println(id);
-		System.out.println(id.length());
-		if (id.length() == 10){
-			System.out.println(id.charAt(0));
-			
+		if (id.matches("^[A-Z][12][0-9]{8}$")){
+			System.out.println("OK");
 		}else{
-			System.out.println("xxxxxx");
+			System.out.println("XX");
 		}
 		
 	}
