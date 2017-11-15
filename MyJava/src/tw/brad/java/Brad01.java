@@ -9,6 +9,7 @@ public class Brad01 {
 		System.out.println(id);
 		System.out.println(id.length());
 		if (id.length() == 10){
+			System.out.println(id.charAt(0));
 			
 		}else{
 			System.out.println("xxxxxx");
